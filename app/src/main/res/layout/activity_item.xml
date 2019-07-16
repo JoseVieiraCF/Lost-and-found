@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cor_plano_de_fundo_lista_de_itens"
+    android:weightSum="100">
+
+    <ImageView
+        android:id="@+id/imageItem"
+        android:layout_width="match_parent"
+        android:layout_height="414dp"
+        android:layout_weight="50"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/garrafairon" />
+
+    <TextView
+        android:id="@+id/textNomeItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Nome"
+        android:textSize="25dp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/textDescricaoItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Descricao"
+        android:textSize="18dp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/textVistoPorUltimo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="14dp"
+        android:text="Visto por ultimo"
+        android:textSize="18dp"
+        android:textColor="#000"/>
+
+
+</LinearLayout>

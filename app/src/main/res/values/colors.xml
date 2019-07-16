@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="plano_de_fundo">#3c2a74</color>
+    <color name="cor_texto_campo">#0f0e0e</color>
+    <color name="cor_plano_de_fundo_lista_de_itens">#d9d8d8</color>
+</resources>
